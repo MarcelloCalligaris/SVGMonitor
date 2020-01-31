@@ -1,0 +1,19 @@
+@keyframes scan1 {
+    0%{opacity: 0;}
+    49%{opacity: 0;}
+    51%{opacity: 1;}
+    100%{opacity: 1;}
+}
+@keyframes scan2 {
+    0%{opacity: 1;}
+    49%{opacity: 1;}
+    51%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+#Scanline1{
+    animation: scan1 0.06s ease infinite;
+}
+#Scanline2{
+    animation: scan1 0.06s ease infinite;
+}
